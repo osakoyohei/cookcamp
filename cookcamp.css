@@ -1,0 +1,299 @@
+body{
+    margin:0;
+    min-width:960px;
+}
+
+.cookcamp{
+    background-image:url(logo.png);
+}
+
+header{
+    background-color:white;
+    width:960px;
+    margin:0 auto;
+}
+
+header img{
+   float:left;
+}
+
+header form{
+    float:right;
+}
+
+header h1{
+    font-size:18px;
+    margin:0;
+    color:#664433;
+    clear:both;
+}
+
+
+
+header ul{
+    list-style:none;
+    display:flex;
+    padding:0;
+    margin:1em 0;
+}
+
+header ul li{
+    flex:1;
+    text-align:center;
+}
+
+header ul li a{
+    display: block;
+}
+
+header ul li+li{
+    border-left:1px solid #CCCCCC;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.container{
+    background-color:#f5f5dd;
+    border-top:1px solid  #cccccc;
+}
+
+.main{
+    display:flex;
+    width:960px;
+    margin:0 auto;
+}
+
+.main-img{
+    margin:0 auto;
+    text-align:center;
+}
+
+.nav-menu-top{
+    background-color:white;
+    margin:10px auto;
+    padding:10px 2px 0;
+    width:200px;
+    height:340px;
+}
+
+.nav-menu-bottom{
+    background-color:white;
+    margin:10px auto;
+    padding:10px 2px 0;
+    width:200px;
+    height:305px;
+}
+
+.main-title{
+    color:white;
+    background-color:#99bb22;
+    border-radius: 20px;
+    margin:1px 3px 0;
+    padding:1px 0 7px;
+}
+
+.dish{
+    margin:1px 10px 1px 16px;
+    position: relative;
+    top: 5px;
+}
+
+
+.arrow{
+    margin-right:10px;
+    position: relative;
+    top:2px;
+}
+
+.ico{
+    color:white;
+}
+
+.nav-ul{
+    list-style:none;
+}
+
+ul.nav-ul li{
+    border-bottom: dashed 1px #cccccc;
+    margin:15px;
+    padding:0 0 5px;
+}
+
+ul.nav-ul li a{
+    display: block;
+}
+
+ul.nav-ul li:last-child{
+    border-bottom:0;
+}
+
+.main-menu{
+    background-color:white;
+    margin:10px 15px;
+    padding:10px 2px 0;
+    width:570px;
+  
+} 
+
+.main-top{
+    display:flex;
+    margin:0 10px;
+    text-align:center;
+}
+
+.main-recipe{
+    flex:1;
+    margin:10px;
+    font-size:3px;
+}
+
+.main-text{
+    margin-top:1px;
+}
+
+.japanese-food{
+    background-color:white;
+    margin:10px 15px 0;
+    padding:10px 2px 0;
+    width:570px;
+    height:350px;
+}
+
+.japanese-food-main{
+    display:flex;
+}
+
+.japanese-food-img{
+    flex:1;
+    position: relative;
+    top:15px;
+    left:20px;
+    margin-right:30px;
+}
+
+.japanese-food-p{
+    flex:1;
+    position: relative;
+    top:20px;
+    right:20px;
+    line-height:17px
+}
+
+.next-p{
+    text-align:right;
+}
+
+.next{
+    color:#fc8833;
+    font-size:14px;
+}
+
+.recommend{
+    background-color:white;
+    margin:10px 15px 0;
+    padding:10px 2px 0;
+    width:570px;
+    height:360px;
+}
+
+.recommend-top{
+    display:flex;
+}
+
+.recommend-bottom{
+    flex:1;
+}
+
+.recommend-img-top{
+    flex:1;
+    position: relative;
+    top:15px;
+    left:20px;
+    margin-right:30px;
+}
+
+.recommend-p-top{
+    flex:1;
+    position: relative;
+    top:10px;
+    right:20px;
+    line-height:17px
+}
+
+.recommend-bottom{
+    display:flex;
+}
+
+.recommend-img-bottom{
+    flex:1;
+    position: relative;
+    top:20px;
+    left:20px;
+    margin-right:30px;
+}
+
+.recommend-p-bottom{
+    flex:1;
+    position: relative;
+    top:15px;
+    right:20px;
+    line-height:17px
+}
+
+.subtitle{
+    color:#800000;
+    font-weight:bold;
+    font-size:1;
+    margin-top:5px;
+    margin-bottom:-10px;
+}
+
+.right-menu{
+    margin:0 auto;
+}
+
+.right-top{
+    margin-top:10px;
+}
+
+.right-bottom{
+    margin-top:10px;
+}
+
+footer{
+    background-color:white;
+    border-top:1px solid #cccccc;
+}
+
+.footer{
+    text-align:center;
+}
+
+.footer-ul{
+    list-style:none;
+    display:flex;
+    margin:20px auto;
+    width:700px;
+}
+
+
+ul.footer-ul li{
+    flex:1;
+    text-align:center;
+    border-right:1px solid #DCDCDC;
+}
+
+ul.footer-ul li:last-child{
+    border-right:0;
+}
+
+.footer-p{
+    margin:0 0 20px;
+}
+
+.footer{
+    color:#AAAAAA;
+}
